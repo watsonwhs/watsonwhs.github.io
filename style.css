@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.navbar-logo {
+    max-width: 200px;  /* 设置最大宽度 */
+    height: auto;     /* 高度自动调整 */
+    margin-left: 20px;
+}
+
+.navbar-menu {
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.navbar-menu a {
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.hero-section {
+    background-image: url("/images/back1.png");
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content {
+    height: 600px;
+    width: auto;
+    margin-right: 50px;
+    color: white;
+    font-size: 30px;
+    font-family: PingFangSC-Regular;
+}
+
+.hero-title {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 150px;
+    margin-left: -6ch;
+    white-space: nowrap;
+}
+
+.hero-paragraph {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 50%;
+    white-space: nowrap;
+    margin-top: 150px;
+}
+
+.hero-logo {
+    max-width: 700px;  /* 设置最大宽度 */
+    height: auto;     /* 高度自动调整 */
+    align-items: center; /* 垂直居中 */
+}
