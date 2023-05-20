@@ -23,24 +23,72 @@ html, body {
   .logo {
     max-width: 15vw;
     height: auto;
-    margin-left: 60px;
-    margin-top: 20px;
+    margin-left: 5vw;
+    margin-top: 1vw;
+  }
+
+  #connect-wallet {
+      margin-left: 2vw;
+      margin-top: -0.8vw;
+      padding: 1vw 1vw 2vw 1vw;
+      background-color: black;
+      color: #ffffff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+  }
+  
+  #disconnect-wallet {
+    color: white;
+    margin-left: 2px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+  
+  #connect-wallet:hover {
+      background-color: white;
+      color: black;
+      font-weight: bold;
+  }
+   
+  #disconnect-wallet:hover {
+    color: red;
+}
+
+  #wallet-address {
+      margin-left: 1vw;
+      color: white;
   }
   
   .nav {
     display: flex;
+    height: 1vw;
     justify-content: flex-end;
     flex-grow: 1;
-    margin-right: 30px;
+    margin-right: 3vw;
     letter-spacing: 2px;
+    margin-top: 1.7vw;
+    transition: text-shadow 0.3s ease; 
   }
   
   .nav a {
-    margin-right: 10px;
+    margin-right: 2vw;
+    height: 1vw;
     color: white;
     text-decoration: none;
-    margin-right: 30px;
     font-size: 1vw;
+    border-bottom: 2px; /* 添加边框属性 */
+    font-weight: bold;
+  }
+
+  .nav a:last-child {
+    margin-right: 0;
+}
+
+  .nav a:hover {
+    text-shadow: 0 0 4px white;
   }
   
   .banner {
@@ -127,9 +175,4 @@ html, body {
     margin-right: 25px;
     font-weight: bold;
     font-size: 1vw;
-  }
-
-  .nav a:hover {
-    color: white;
-    font-weight: bold;
   }
